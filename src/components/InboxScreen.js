@@ -6,10 +6,11 @@ import { connect } from 'react-redux';
 
 import TaskList from './taskList/TaskList';
 
+
 export function PureInboxScreen({ error }) {
   if (error) {
     return (
-      <div className="page lists-show">
+      <div className="page lists-show" style={{ maxWidth: "1200px", margin:"0 auto"}}>
         <div className="wrapper-message">
           <span className="icon-face-sad" />
           <div className="title-message">Oh no!</div>

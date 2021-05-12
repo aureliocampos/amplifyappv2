@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+#"chromatic": "npx chromatic --project-token 32bbe86d3b2f"
